@@ -1,5 +1,5 @@
 {
-  "name": "DREADED V2",
+  "name": "MR KESSY'S ROBOT",
   "description": "This is a simple whatsapp bot built with nodejs and baileys with MD support.",
   "keywords": [
     "bot",
@@ -16,7 +16,7 @@
   ],
   "website": "https://github.com/Fortunatusmokaya/dreaded-v2#readme",
   "repository": "https://github.com/Fortunatusmokaya/dreaded-v2.git",
-  "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+  "logo": "https://files.catbox.moe/xzoujd.jpg",
   "success_url": "/",
   "env": {
     "PREFIX": {
@@ -25,7 +25,7 @@
       "required": true
     },
     "DEV": {
-      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" Ex: 254114018035, 254741889898 ",
+      "description": "Put any phone numbers you want to be bot owner without + or spaces \",\" 255620700657",
       "required": false
     },
     "CODE": {
@@ -54,17 +54,17 @@
     },
     "AUTOVIEW_STATUS": {
       "description": "Type true if you want bot to automatically read all status update",
-      "required": false
+      "required": true
     },
 
  "AUTOLIKE_STATUS": {
       "description": "Type true if you want bot to automatically like status updates, this will only work if AUTOVIEW_STATUS is true.",
-      "required": false
+      "required": true
     },
 
  "ANTIDELETE": {
       "description": "Type true if you want bot to automatically forward deleted messages in groups. The deleted messages will be forwarded to the <message yourself chat>. We are yet to implement antidelete for private chats.",
-      "required": false
+      "required": true
     },
 
 "EVENTS": {
@@ -83,11 +83,11 @@
     },
 "ANTIVIEWONCE": {
       "description": "Type true if you want bot to automatically read viewonce media",
-      "required": false
+      "required": true
     },
     "AUTOREAD": {
       "description": "Put here true if you want bot to automatically bluetick messages in private.",
-      "required": false
+      "required": true
     },
     "WA_PRESENCE": {
       "description": "This is your WhatsApp Presence Status: Here's how to set it up: Type *typing* if you want bot to show typing..., Type *recording* if you want bot to show recording..., Type *online* if you want bot to be always online, Leave this field blank if you want bot to show your actual presence.",
